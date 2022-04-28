@@ -1,6 +1,8 @@
 ﻿// ReSharper disable UnusedMember.Global
 // ReSharper disable IdentifierTypo
 
+using OnMuhasebe.Donemler;
+
 namespace OnMuhasebe.Faturalar;
 
 public class Fatura : FullAuditedAggregateRoot<Guid>
@@ -21,4 +23,15 @@ public class Fatura : FullAuditedAggregateRoot<Guid>
     public Guid DonemId { get; set; }
     public string Aciklama { get; set; }
     public bool Durum { get; set; }
+
+
+
+
+    public Cari Cari { get; set; }
+    public OzelKod OzelKod1 { get; set; }
+    public OzelKod OzelKod2 { get; set; }
+    public Sube Sube { get; set; }
+    public Donem Donem { get; set; }
+
+    public ICollection<FaturaHareket> FaturaHareketler { get; set; }
 }
