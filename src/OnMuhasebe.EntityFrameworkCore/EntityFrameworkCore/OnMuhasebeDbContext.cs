@@ -127,5 +127,10 @@ public class OnMuhasebeDbContext :
         builder.ConfigureHizmet();
         builder.ConfigureKasa();
         builder.ConfigureMakbuz();
+        builder.ConfigureMakbuzHareket();
+        builder.ConfigureMasraf();
+        builder.ConfigureOzelKod();
+        builder.ConfigureStok();
+        builder.ConfigureSube();
     }
 }
