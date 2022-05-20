@@ -9,7 +9,7 @@ namespace OnMuhasebe.Faturalar;
 
 public class FaturaHareket : FullAuditedEntity<Guid>
 {
-    public Guid FatuarId { get; set; }
+    public Guid FaturaId { get; set; }
     public FaturaHareketTuru HareketTuru { get; set; }
     public Guid? StokId { get; set; }
     public Guid? HizmetId { get; set; }

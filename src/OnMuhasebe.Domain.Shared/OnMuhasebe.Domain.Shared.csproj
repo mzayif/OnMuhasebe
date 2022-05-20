@@ -29,9 +29,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="BankaHesaplar\" />
     <Folder Include="Faturalar\" />
     <Folder Include="Makbuzlar\" />
+    <Folder Include="Cariler\" />
     <Folder Include="OzelKodlar\" />
   </ItemGroup>
 
