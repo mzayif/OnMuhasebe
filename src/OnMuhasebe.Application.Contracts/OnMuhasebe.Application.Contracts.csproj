@@ -21,4 +21,23 @@
     <PackageReference Include="Volo.Abp.SettingManagement.Application.Contracts" Version="5.1.4" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="BankaHesaplar\" />
+    <Folder Include="Bankalar\" />
+    <Folder Include="CommonDtos\" />
+    <Folder Include="BankaSubeler\" />
+    <Folder Include="Birimler\" />
+    <Folder Include="Cariler\" />
+    <Folder Include="Depolar\" />
+    <Folder Include="Donemler\" />
+    <Folder Include="Faturalar\" />
+    <Folder Include="Hizmetler\" />
+    <Folder Include="Makbuzlar\" />
+    <Folder Include="Masraflar\" />
+    <Folder Include="Subeler\" />
+    <Folder Include="Stoklar\" />
+    <Folder Include="Parametreler\" />
+    <Folder Include="OzelKodlar\" />
+  </ItemGroup>
+
 </Project>

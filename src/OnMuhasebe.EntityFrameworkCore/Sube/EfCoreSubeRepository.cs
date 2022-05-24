@@ -1,10 +1,5 @@
 ﻿using OnMuhasebe.Commons;
 using OnMuhasebe.EntityFrameworkCore;
-using OnMuhasebe.Makbuzlar;
-using OnMuhasebe.Masraflar;
-using OnMuhasebe.OzelKodlar;
-using OnMuhasebe.Parametreler;
-using OnMuhasebe.Stoklar;
 using OnMuhasebe.Subeler;
 using Volo.Abp.EntityFrameworkCore;
 
