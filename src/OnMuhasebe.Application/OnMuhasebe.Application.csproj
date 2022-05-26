@@ -21,4 +21,9 @@
     <PackageReference Include="Volo.Abp.SettingManagement.Application" Version="5.1.4" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Bankalar\" />
+    <Folder Include="BankaSubeler\" />
+  </ItemGroup>
+
 </Project>

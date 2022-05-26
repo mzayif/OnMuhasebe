@@ -109,7 +109,7 @@ public class EfCoreCommonRepository<TEntity> : EfCoreRepository<OnMuhasebeDbCont
                 difference = 0;
 
             var newCode = code.Substring(0, difference);
-            newCode += number;
+            newCode += newNumber;
 
             return newCode;
         }

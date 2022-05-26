@@ -5,7 +5,7 @@ using Volo.Abp.Application.Dtos;
 
 namespace OnMuhasebe.Cariler;
 
-public class ListCariHareketDto : EntityDto<Guid>
+public class ListCariDto : EntityDto<Guid>
 {
     public Guid CariId { get; set; }
     public Guid? FaturaId { get; set; }

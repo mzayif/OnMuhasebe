@@ -27,6 +27,7 @@
   <ItemGroup>
     <Folder Include="BankaHesaplar\" />
     <Folder Include="Commons\" />
+    <Folder Include="Extensions\" />
   </ItemGroup>
 
 </Project>

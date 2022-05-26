@@ -5,7 +5,7 @@ using Volo.Abp.Application.Dtos;
 
 namespace OnMuhasebe.Stoklar;
 
-public class StokHareketListPArameterDto : PagedResultRequestDto, IDurum, IEntityDto
+public class StokHareketListParameterDto : PagedResultRequestDto, IDurum, IEntityDto
 {
     public FaturaHareketTuru? HareketTuru { get; set; }
     public Guid EntityId { get; set; }
