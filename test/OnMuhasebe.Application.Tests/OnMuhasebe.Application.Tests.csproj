@@ -1,19 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <Import Project="..\..\common.props" />
-
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <RootNamespace>OnMuhasebe</RootNamespace>
   </PropertyGroup>
-
   <ItemGroup>
     <ProjectReference Include="..\..\src\OnMuhasebe.Application\OnMuhasebe.Application.csproj" />
     <ProjectReference Include="..\OnMuhasebe.Domain.Tests\OnMuhasebe.Domain.Tests.csproj" />
   </ItemGroup>
-
   <ItemGroup>
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.11.0" />
   </ItemGroup>
-
 </Project>

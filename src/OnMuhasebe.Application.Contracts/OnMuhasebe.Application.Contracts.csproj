@@ -1,16 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <Import Project="..\..\common.props" />
-
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <RootNamespace>OnMuhasebe</RootNamespace>
   </PropertyGroup>
-
   <ItemGroup>
     <ProjectReference Include="..\OnMuhasebe.Domain.Shared\OnMuhasebe.Domain.Shared.csproj" />
   </ItemGroup>
-
   <ItemGroup>
     <PackageReference Include="Volo.Abp.ObjectExtending" Version="5.1.4" />
     <PackageReference Include="Volo.Abp.Account.Application.Contracts" Version="5.1.4" />
@@ -20,7 +16,6 @@
     <PackageReference Include="Volo.Abp.FeatureManagement.Application.Contracts" Version="5.1.4" />
     <PackageReference Include="Volo.Abp.SettingManagement.Application.Contracts" Version="5.1.4" />
   </ItemGroup>
-
   <ItemGroup>
     <Folder Include="Bankalar\" />
     <Folder Include="CommonDtos\" />
@@ -38,5 +33,4 @@
     <Folder Include="Parametreler\" />
     <Folder Include="OzelKodlar\" />
   </ItemGroup>
-
 </Project>
